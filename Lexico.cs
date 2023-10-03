@@ -51,7 +51,7 @@ namespace LYA_Lexico2
                             estado = 10;
                         else if (c == '+' || c == '-') // OpTermino
                             estado = 12;
-                        else if (c == '*' || c == '%')
+                        else if (c == '*' || c == '%' || c == '/')
                             estado = 14;
                         else if (c == '?')
                             estado = 17;
@@ -145,7 +145,7 @@ namespace LYA_Lexico2
                         break;
                     case 14:
                         setClasificacion(Tipos.OpFactor);
-                        if(c == '*' || c == '/' || c == '=')
+                        if(c == '=')
                             estado = 15;
                         else
                             estado = F;

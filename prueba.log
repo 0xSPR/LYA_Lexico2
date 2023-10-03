@@ -24,10 +24,10 @@ x26 = Identificador
 -- = InTermino
 +- = InTermino
 -+ = InTermino
-*/ = InFactor
+* = OpFactor
+/ = OpFactor
 *= = InFactor
-/ = Caracter
-= = Asignacion
+/= = InFactor
 % = OpFactor
 %= = InFactor
 "" = Cadena
