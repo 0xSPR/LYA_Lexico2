@@ -51,6 +51,10 @@ namespace LYA_Lexico2
                             estado = 10;
                         else if (c == '+' || c == '-') // OpTermino
                             estado = 12;
+                        else if (c == '*' || c == '%')
+                            estado = 14;
+                        else if (c == '?')
+                            estado = 17;
                         else
                             estado = 8;
                         break;
@@ -104,12 +108,12 @@ namespace LYA_Lexico2
                         break;
                     case 8:
                         setClasificacion(Tipos.Caracter);
-                        if(c == '&')
-                            estado = 11;
-                        else if (c == '|')
+                        if (c == '|')
                             estado = 11;
                         else if (c == '*' || c == '/')
                             estado = 14;
+                        else if (c == '\"' || char.IsLetterOrDigit(c))
+                            estado = 16;
                         else
                             estado = F;
                         break;
@@ -137,10 +141,30 @@ namespace LYA_Lexico2
                         break;
                     case 13:
                         setClasificacion(Tipos.InTermino);
-                        estado = F;
+                            estado = F;
                         break;
                     case 14:
                         setClasificacion(Tipos.OpFactor);
+                        if(c == '*' || c == '/' || c == '=')
+                            estado = 15;
+                        else
+                            estado = F;
+                        break;
+                    case 15:
+                        setClasificacion(Tipos.InFactor);
+                        estado = F;
+                        break;
+                    case 16:
+                        setClasificacion(Tipos.Cadena);
+                        if(c != '\"')
+                            estado = 8;
+                        else
+                            estado = F;
+                        break;
+                        case 17:
+                            setClasificacion(Tipos.OpTerneario);
+                            estado = F;
+                            break;
                         
                 }
                 if (estado >= 0)
