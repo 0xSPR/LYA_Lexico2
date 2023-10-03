@@ -1,0 +1,14 @@
+/home/shade/Documents/Fleet/LYA_Lexico2/bin/Debug/net7.0/LYA_Lexico2
+/home/shade/Documents/Fleet/LYA_Lexico2/bin/Debug/net7.0/LYA_Lexico2.deps.json
+/home/shade/Documents/Fleet/LYA_Lexico2/bin/Debug/net7.0/LYA_Lexico2.runtimeconfig.json
+/home/shade/Documents/Fleet/LYA_Lexico2/bin/Debug/net7.0/LYA_Lexico2.dll
+/home/shade/Documents/Fleet/LYA_Lexico2/bin/Debug/net7.0/LYA_Lexico2.pdb
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/LYA_Lexico2.GeneratedMSBuildEditorConfig.editorconfig
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/LYA_Lexico2.AssemblyInfoInputs.cache
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/LYA_Lexico2.AssemblyInfo.cs
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/LYA_Lexico2.csproj.CoreCompileInputs.cache
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/LYA_Lexico2.dll
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/refint/LYA_Lexico2.dll
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/LYA_Lexico2.pdb
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/LYA_Lexico2.genruntimeconfig.cache
+/home/shade/Documents/Fleet/LYA_Lexico2/obj/Debug/net7.0/ref/LYA_Lexico2.dll

@@ -1,0 +1,8 @@
+x26 = Identificador
+= = Asignacion
+1.5e-8 = Numero
+; = Caracter
++- = InTermino
+++ = InTermino
+- = OpTermino
+= = Asignacion
